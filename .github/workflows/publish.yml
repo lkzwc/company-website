@@ -1,0 +1,14 @@
+name:"Liuke Wbesite Publish"
+on:
+  push:
+    branches:
+      -master
+jobs:
+  output:
+      echo "正在打包中...."
+  build:
+      echo "正在打包中....build"
+  test:
+      echo "正在打包中....test"
+  publish:
+      echo "正在打包中....publish"
