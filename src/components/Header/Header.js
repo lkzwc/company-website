@@ -48,7 +48,7 @@ class Header extends React.Component {
                     </Menu.Item>
                     <Menu.Item key="/Internet">
                         <a
-                            href="https://www.yuque.com/docs/share/79223db0-0d78-4e3a-ad22-6f716e98030c?# 《超全的互联网正规卡办理，腾讯王卡，阿里宝卡，蚂蚁宝卡，歪卡，米粉卡，滴滴卡，天神卡，钉钉卡办理》"
+                            href="https://card.xuankaba.com/t/0.x5bgrv"
                             target="_blank"
                             rel="noreferrer"
                         >

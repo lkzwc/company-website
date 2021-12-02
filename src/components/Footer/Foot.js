@@ -15,7 +15,15 @@ export default function Foot() {
                 </div>
             </div>
             <div className={style.declare}>
-                <span>流客科技-万网之流,来者皆客 ©流客科技</span>
+                <span>
+                    <a
+                        href="https://beian.miit.gov.cn/#/Integrated/recordQuery"
+                        target="_black"
+                    >
+                        陕ICP备20008168号
+                    </a>
+                    流客科技-万网之流,来者皆客 ©流客科技
+                </span>
             </div>
         </div>
     );
