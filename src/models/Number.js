@@ -9,7 +9,7 @@ export default {
                 description: "海量免费靓号等你来选",
             },
             {
-                url: "https://card.xuankaba.com/t/0.x5bgrv",
+                url: "https://gantanhao.vip/91haoka_platform/#/minishop?share_id=377889&shop_name=%25E6%25B5%2581%25E5%25AE%25A2%25E7%25A7%2591%25E6%258A%2580%25E6%2597%2597%25E8%2588%25B0%25E5%25BA%2597",
                 title: "互联网卡免费申请",
                 description: "下单领取之后查询王卡信息",
             },
