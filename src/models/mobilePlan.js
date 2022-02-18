@@ -1,24 +1,19 @@
 export default {
-    namespace: "number",
+    namespace: "mobilePlan",
 
     state: {
         officialInfos: [
             {
-                url: "https://sn.xuankaba.com/?key=x5bgrv",
-                title: "免费靓号",
-                description: "海量免费靓号等你来选",
-            },
-            {
-                url: "http://d.tianlulh.com/u1615",
-                title: "精选靓号",
-                description: "1314520、1555522、豹子号",
+                url: "https://gantanhao.vip/91haoka_platform/#/minishop?share_id=377889&shop_name=%25E6%25B5%2581%25E5%25AE%25A2%25E7%25A7%2591%25E6%258A%2580%25E6%2597%2597%25E8%2588%25B0%25E5%25BA%2597",
+                title: "绝版套餐",
+                description: "全世界最全的内部套餐卡",
             },
         ],
         shopInfos: [
             {
-                url: "https://card.xuankaba.com/t/8.x5bgrv",
-                title: "本地王卡精选",
-                description: "大王卡本地精选号码，全是靓号",
+                url: "https://gantanhao.vip/91haoka_platform/#/minishop?share_id=377889&shop_name=%25E6%25B5%2581%25E5%25AE%25A2%25E7%25A7%2591%25E6%258A%2580%25E6%2597%2597%25E8%2588%25B0%25E5%25BA%2597",
+                title: "绝版套餐",
+                description: "全世界最全的内部套餐卡",
             },
             {
                 url: "https://card.xuankaba.com/t/17.x5bgrv",

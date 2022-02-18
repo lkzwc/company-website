@@ -10,7 +10,7 @@ import Device from "./Device/Device";
 import Number from "./Number/Number";
 import QA from "./QA/Qa";
 import Declare from "./Declare/Declare";
-import Express from "./Express/Express";
+import MobilePlan from "./MobilePlan/MobilePlan";
 
 const { Header, Footer, Content } = Layout;
 
@@ -40,7 +40,10 @@ function IndexPage() {
                                 component={Device}
                             ></Route>
                             <Route path="/Number" component={Number}></Route>
-                            <Route path="/Express" component={Express}></Route>
+                            <Route
+                                path="/MobilePlan"
+                                component={MobilePlan}
+                            ></Route>
                             <Route path="/QA" component={QA}></Route>
                             <Route path="/Declare" component={Declare}></Route>
                         </Switch>

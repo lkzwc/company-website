@@ -1,12 +1,12 @@
 import React from "react";
 import SmallCard from "../../components/SmallCard/SmallCard";
 import { Divider } from "antd";
-import Style from "./Number.less";
+import Style from "./MobilePlan.less";
 import { FlagTwoTone } from "@ant-design/icons";
 import { connect } from "dva";
 
-@connect(({ number }) => ({ number }))
-export default class Number extends React.Component {
+@connect(({ mobilePlan }) => ({ mobilePlan }))
+export default class MobilePlan extends React.Component {
     render() {
         return (
             <div className={Style.layoutInfo}>
@@ -17,7 +17,7 @@ export default class Number extends React.Component {
                     </div>
                 </Divider>
                 <div className={Style.content}>
-                    {this.props.number.officialInfos.map((item, index) => {
+                    {this.props.mobilePlan.officialInfos.map((item, index) => {
                         return (
                             <SmallCard
                                 url={item.url}
@@ -34,7 +34,7 @@ export default class Number extends React.Component {
                     </div>
                 </Divider>
                 <div className={Style.content}>
-                    {this.props.number.shopInfos.map((item, index) => {
+                    {this.props?.mobilePlan?.shopInfos.map((item, index) => {
                         return (
                             <SmallCard
                                 url={item.url}
